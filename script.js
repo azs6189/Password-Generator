@@ -20,15 +20,14 @@ function determineLength() {
     alert("Password length is too long! Must be between 8-128 caracters.");
     determineLength();
   } else {
-    alert("Please answer the following prommpts to generate your random password.")
-
+    alert("Please answer the following prompts to generate your random password.")
   }
   return passwordLength;
 }
 
 //Function used to determine whether the user wants to include uppercase characters in the password
 function determineUpperCase() {
-  upperCaseQuery = prompt("Do you want to include uppercase letters in your password? \n(Yes or No)");
+  upperCaseQuery = confirm("Do you want to include uppercase letters in your password? \n(Yes or No)");
   upperCaseQuery = upperCaseQuery.toLowerCase();
 
   if (upperCaseQuery === null || upperCaseQuery === "") {
