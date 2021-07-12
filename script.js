@@ -27,7 +27,7 @@ function determineLength() {
 
 //Function used to determine whether the user wants to include uppercase characters in the password
 function determineUpperCase() {
-  upperCaseQuery = confirm("Do you want to include uppercase letters in your password? \n(Yes or No)");
+  upperCaseQuery = prompt("Do you want to include uppercase letters in your password? \n(Yes or No)");
   upperCaseQuery = upperCaseQuery.toLowerCase();
 
   if (upperCaseQuery === null || upperCaseQuery === "") {
