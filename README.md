@@ -33,5 +33,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-
+Screenshot of deployed website
 ![Password-Generator](images/password-generator.png)
+
+Link to deployed website
+https://azs6189.github.io/Password-Generator/
