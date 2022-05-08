@@ -31,4 +31,4 @@ c. Once you complete the prompts, your password will be generated.
 
 https://azs6189.github.io/Password-Generator/
 
-![Password-Generator](images/password-generator.png)
+![Password-Generator](images/password-generator-image.png)
