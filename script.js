@@ -1,5 +1,5 @@
 // Set variables for password criteria
-const generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 let lowerCaseLetterArr = [
 	"a",
 	"b",
