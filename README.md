@@ -1,11 +1,19 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-## Your Task
+## Table of Contents
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+- [Description](#description)
+- [Usage](#usage)
+- [Web Page](#web-page)
 
+## Description
 
-## User Story
+The Password Generator is an application that enables users to generate a random password based on criteria that they have selected. This will allow the user to create a stronger password that provides greater security
+
+## Usage
+
+a. Head over to the Password Generator webpage:
+https://azs6189.github.io/Password-Generator/
 
 ```
 AS AN employee with access to sensitive data
