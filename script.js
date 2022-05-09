@@ -69,6 +69,9 @@ var upperCaseQuery;
 var numberQuery;
 var specialQuery;
 
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
 // Function to determine the length of the password to be generated
 function determineLength() {
 	passwordLength = prompt(
@@ -205,6 +208,3 @@ function writePassword() {
 	var passwordText = document.querySelector("#password");
 	passwordText.value = password1;
 }
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
