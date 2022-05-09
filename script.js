@@ -1,6 +1,6 @@
 // Set variables for password criteria
 var generateBtn = document.querySelector("#generate");
-let lowerCaseLetterArr = [
+var lowerCaseLetterArr = [
 	"a",
 	"b",
 	"c",
@@ -28,7 +28,7 @@ let lowerCaseLetterArr = [
 	"y",
 	"z",
 ];
-let upperCaseLetterArr = [
+var upperCaseLetterArr = [
 	"A",
 	"B",
 	"C",
@@ -56,12 +56,12 @@ let upperCaseLetterArr = [
 	"Y",
 	"Z",
 ];
-let numberArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-let specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*"];
-let passwordLength;
-let upperCaseQuery;
-let numberQuery;
-let specialQuery;
+var numberArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var specialCharacter = ["!", "@", "$", "%", "^", "&", "*"];
+var passwordLength;
+var upperCaseQuery;
+var numberQuery;
+var specialQuery;
 
 // Function to determine the length of the password to be generated
 function determineLength() {
@@ -164,8 +164,8 @@ function generatePassword() {
 	determineSpecial();
 	console.log(specialQuery);
 
-	let characters = lowerCaseLetterArr;
-	let password = "";
+	var characters = lowerCaseLetterArr;
+	var password = "";
 	if (upperCaseQuery && numberQuery && specialQuery) {
 		characters += upperCaseLetterArr + numberArr + specialCharacter;
 	} else if (upperCaseQuery && numberQuery) {
