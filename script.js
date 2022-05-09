@@ -174,7 +174,7 @@ function generatePassword() {
 	console.log(specialQuery);
 
 	var characters = lowerCaseLetterArr;
-	var password = "";
+	var password = []; //updated from "" to []
 	if (upperCaseQuery && numberQuery && specialQuery) {
 		characters += upperCaseLetterArr + numberArr + specialCharacter;
 	} else if (upperCaseQuery && numberQuery) {
