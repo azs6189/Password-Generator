@@ -1,5 +1,9 @@
 // Set variables for password criteria
+
+// Connects script.js file to button in HTML
 var generateBtn = document.querySelector("#generate");
+
+// Arrays of password character options
 var lowerCaseLetterArr = [
 	"a",
 	"b",
@@ -56,8 +60,10 @@ var upperCaseLetterArr = [
 	"Y",
 	"Z",
 ];
-var numberArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var numberArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialCharacter = ["!", "@", "$", "%", "^", "&", "*"];
+
+// Holder variables
 var passwordLength;
 var upperCaseQuery;
 var numberQuery;
